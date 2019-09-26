@@ -1,4 +1,8 @@
+# Copyright (c) 2019 Wenyi Tang
+# Author: Wenyi Tang
+# E-mail: wenyitang@outlook.com
 project(ixr_engine VERSION 0.2.0)
+include(msvc_helper)
 require_cxx_standard(14)
 if(MSVC)
   enable_compile_flag_mt()
